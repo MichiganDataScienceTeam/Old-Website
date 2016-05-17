@@ -32,7 +32,7 @@ owner:
   email: mdst-exec@umich.edu
   disqus-shortname: 
   twitter:
-  facebook: #username
+  facebook: mdst.umich
   google:
     plus: #username
     analytics:
@@ -40,7 +40,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: 
+  github: MichiganDataScienceTeam
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   xing: #username
