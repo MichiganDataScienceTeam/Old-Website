@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-05-16T23:08:05-04:00</updated>
+<updated>2016-05-16T23:19:51-04:00</updated>
 <id>/</id>
 <author>
   <name>MDST Staff</name>
@@ -14,7 +14,7 @@
 
 
 <entry>
-  <title type="html"><![CDATA[Ten-Thousand Hours of Code]]></title>
+  <title type="html"><![CDATA[This is a dummy post]]></title>
   <link rel="alternate" type="text/html" href="/anyone-can-code/" />
   <id>/anyone-can-code</id>
   <updated>2015-12-30T00:00:00-00:00</updated>
@@ -26,100 +26,11 @@
     <email>mdst-exec@umich.edu</email>
   </author>
   <content type="html">
-    &lt;p&gt;&lt;em&gt;This is adapted from a response to an email a friend of mine sent me, asking for my thoughts on an article that recently became popular across various subreddits and college Facebook groups I frequent. The article can be found &lt;a href=&quot;http://mikehadlow.blogspot.com/2015/12/learn-to-code-its-harder-than-you-think.html&quot;&gt;HERE&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;This is a research paper I really like.&lt;/p&gt;
 
-&lt;p&gt;I’m a pretty fair person when it comes to argument. Rarely do I find an opinion so incendiary that my burning desire to comment overwhelms my conscious abstinence from the chorus of Internet shouting matches- however, an exception must be made. The article in question begins, as most blog posts should, with a handy dandy &lt;a href=&quot;https://en.wikipedia.org/wiki/TL;DR&quot;&gt;TL;DR&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“All the evidence shows that programming requires a high level of aptitude that only a small percentage of the population possess. The current fad for short learn-to-code courses is selling people a lie and will do nothing to help the skills shortage for professional programmers.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In the interest of spending my life doing more productive things than shaking down nerds on the Internet, I’ll comment only on what I believe is the &lt;em&gt;essence&lt;/em&gt; of Hadlow’s argument- the core set of positions which I find many reasonable people seem sympathetic to.&lt;/p&gt;
-
-&lt;p&gt;I choose to do this because Hadlow appears to have done very little in the way of vetting his evidence. Indeed, the comment section has done much of that work for him, pointing out where he &lt;a href=&quot;http://mikehadlow.blogspot.com/2015/12/learn-to-code-its-harder-than-you-think.html?showComment=1449253689584#c1443569636543852685&quot;&gt;overgeneralizes StackOverflow survey results&lt;/a&gt; and &lt;a href=&quot;http://mikehadlow.blogspot.com/2015/12/learn-to-code-its-harder-than-you-think.html?showComment=1449248371813#c7305836036418849844&quot;&gt;cites BS research&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is the most charitable interpretation of Hadlow’s argument I can muster.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Becoming a good programmer requires rare, innate talent.&lt;/li&gt;
-  &lt;li&gt;Learn-to-code courses claim to teach people the skills necessary to become employable programmers.&lt;/li&gt;
-  &lt;li&gt;Therefore, learn-to-code courses are being disingenuous at best and at worst, ‘selling people a lie’.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;on-innate-talent&quot;&gt;On ‘Innate Talent’&lt;/h2&gt;
-
-&lt;p&gt;I’d like to immediately address the idea of there being some innate talent- something in the genes- that contributes to one’s programming skill. There is a study I’d like to cite here, one published in a peer reviewed journal. &lt;a href=&quot;http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.169.9712&quot;&gt;&lt;em&gt;“The Role of Deliberate Practice …“&lt;/em&gt;&lt;/a&gt; is an article addressing exactly how “expert performers” acquire their abilities. It concludes with a paragraph that I think is sharply relevant here.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;People believe that because expert performance is qualitatively different from normal performance the expert performer must be endowed with characteristics qualitatively different from those of normal adults … However, we deny that these differences are immutable, that is, due to innate talent … Instead, we argue that the differences between expert performers and normal adults reflect a life-long period of deliberate effort to improve performance in a specific domain.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The paper makes the claim that it’s not the presence of talent which allows expert performance, but rather, years of carefully meditated practice. This, to me, should conform strongly to our intuitions. “To be a master, you must spend 10,000 hours on your craft”. Variations of this phrase appear in specific domains as well. I’ve seen numerous authors quoted around this subject, advising students of writing to get their first million words down on paper as soon as possible, because only after the first million will you write something worth reading. I’ve often heard similar sayings in the programming community with regard to the number of lines of code one must write until they are deemed competent.&lt;/p&gt;
-
-&lt;p&gt;Despite this widely accepted belief that practice leads to mastery, I still find myself in discussions where my company takes the contrary opinion, often with reference to personal experience. &lt;em&gt;“I just can’t learn economics”, “Calculus just doesn’t make sense to me”, “I’ve never been a great writer”.&lt;/em&gt; I want to make it clear that I understand the sentiment- the feelings at play in discussions where one is inclined to make such statements about themselves- as I am guilty of such proclamations as well. However, I’ve come to understand a principle about myself that I have attempted to generalize to others. Fair warning, this is where I leave the domain of science and get comfy in my psycho-philosophical armchair, but I believe that these vocalizations are rooted in a failure to be honest with one’s goals and desires.&lt;/p&gt;
-
-&lt;h2 id=&quot;talking-from-the-psycho-philosophical-armchair&quot;&gt;Talking from the Psycho-Philosophical Armchair&lt;/h2&gt;
-
-&lt;p&gt;When in the presence of experts, there’s a desire to back away from any claims on one’s own ability in the expert’s domain. Concessions like the hypothetical lot above are most common in the presence of experts in the subject of discussion. In part because we might want to compliment the expert on their achievement in an area we find challenging, but also to excuse ourselves of any failed aptitude for the subject. The concession is an attempt to absolve ourselves of any crimes against the subject area. We assert that it isn’t the subject’s fault- the subject isn’t dumb- but rather that we are incapable.&lt;/p&gt;
-
-&lt;p&gt;To an extent, this is fine. The heart is in the right place. What is wrong, in my mind, is to believe that you were unable to pursue the topic more due to a false requirement of innate talent. It’s the difference between &lt;em&gt;can’t&lt;/em&gt; and &lt;em&gt;won’t&lt;/em&gt;. The reason you didn’t learn economics wasn’t because you couldn’t, it was because &lt;strong&gt;&lt;em&gt;you didn’t want to, and that’s okay&lt;/em&gt;&lt;/strong&gt;. The greater issue that needs to be addressed is the factor which perpetuates this set of beliefs about innate talent. The embarrassment people seem to feel over not pursuing a subject. It is the feeling that, to the expert, the subject is trivial and that we might be judged for not having greater ability in that area.&lt;/p&gt;
-
-&lt;p&gt;No one should be held at fault or blamed in some way for not pursuing one craft or another. I am constantly amazed by my peers in other domains. Not just by the expert’s achievements, but by their ability to take any subject in their domain and convince me of the value in their passion. As I’m sure the reader will agree, the most impressive individuals are those which make you reconsider your path- those who are so passionate that you are momentarily convinced that you should devote yourself to their craft as well.&lt;/p&gt;
-
-&lt;p&gt;In reality, there should be no such  jealousy, but a shared appreciation for human dedication. Indeed, I find the idea that there can be so many disciplines with active, passionate, communities a testament to the breadth and ability of the human mind, rather than evidence for seemingly random individually assigned limitations.&lt;/p&gt;
-
-&lt;h2 id=&quot;so-why-dont-we-have-more-programmers&quot;&gt;So why don’t we have more programmers?&lt;/h2&gt;
-
-&lt;p&gt;My position on Hadlow’s argument is merely a permutation of a greater position that I hold: It’s not that one can’t code, but rather that they don’t want to, to which we might ask ourselves, ‘why is this the case?’. Well, pinning down the exact cause is certainly difficult. I’ll grant Hadlow that. However, math is also hard. So is writing. There’s even a a phrase ‘anything worth doing is hard’. So why is it that programing gets singled out as an unpopular major?&lt;/p&gt;
-
-&lt;p&gt;Personally, I find &lt;em&gt;‘stigma’&lt;/em&gt; a convincing answer. While there’s certainly still social stigma that exists, especially with women in STEM, nerds just aren’t getting harassed like they used to. My belief is that the nerd-shaming mentality is on its way out of the mainstream culture, and that efforts like the “Hour of Code” and Codecademy are leading the way to giving everyone a fair chance to explore, not just programming, but many other subject areas like those in STEM.&lt;/p&gt;
-
-&lt;p&gt;We’re seeing evidence of this shift in public opinion. Movies are being made dramatizing technology startups, Computer Science is the top major for undergraduate women at Stanford, hell, Obama’s even written a few lines of javascript. It would be a disservice to ignore the role ‘learn-to-code’ organizations have had in this shift, and an even broader disservice to the coming generations to shame anything which promotes interest in &lt;em&gt;any&lt;/em&gt; meaningful pursuit.&lt;/p&gt;
-
-&lt;h2 id=&quot;on-selling-a-lie&quot;&gt;On ‘Selling a lie’&lt;/h2&gt;
-
-&lt;p&gt;I imagine when experienced programmers see the ads for ‘learn-to-code’ courses, it can be a little insulting. There’s a sort of implication that programing must be easy if you can “learn” it in just one hour. More importantly, they trivialize the hours and hours spent pouring over algorithms textbooks and documentation that many educated computer scientists have have committed themselves to. And there is a hint of legitimacy to these claims- you absolutely can’t replace that knowledge. The same way I can’t teach you to be a chef in one hour, there is no way to teach someone to be a software engineer in one hour.&lt;/p&gt;
-
-&lt;p&gt;So lets think about a hypothetical. I’m hungry at the moment, so I’ll build on the chef example. Say you’re someone who has never cooked anything in your life. You’ve survived on ‘e-z-mac’ and McDondalds, you’ve gotten really fat and your dog is embarrassed to be seen with you. You’re trying to turn things around, though, so you look around for ways to get healthier and you see an ad. “Learn to Cook in just One Hour”&lt;/p&gt;
-
-&lt;p&gt;One might expect to learn about the different types of kitchenware and some frequently seen preparation techniques- likely even a short recipe towards the end to put your new knowledge to work and let you walk away with something tangible like a burger or some pancakes. Any reasonable person would expect to learn &lt;em&gt;just the basics&lt;/em&gt; of cooking. Would they apply to be a chef immediately after finishing the course? No, a reasonable person would have no illusions of doing so. However, one might expect a budding chef to pursue other content. Maybe more recipes or advanced tutorials. They might even take a local class on cooking to really kickstart the hobby and get into the habit of &lt;em&gt;cooking every day&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Hadlow takes issue with services that seem to promise too much, and I grant that some of these services walk the line between realism and dishonesty. However, this is not the goal of the learn-to-code services Hadlow cites. “Hour of Code” and “Codecademy” do not claim they alone will fast-track users into the world of tech. They do, however, provide a starting place.&lt;/p&gt;
-
-&lt;p&gt;There’s a fine line between praying on the hopes of people in a bad situation and genuinely offering a service which could be the start of a viable career transition. Hadlow brings this up, and it is likely the motivating point he was trying to get across before he got caught up in his other, less tenable propositions.&lt;/p&gt;
-
-&lt;p&gt;There are services like the &lt;a href=&quot;http://www.grandcircus.co/bootcamps&quot;&gt;Grand Circus&lt;/a&gt;, which &lt;em&gt;do&lt;/em&gt; promise a career in tech in as little as ten weeks. While I cannot speak to the ability of these programs to produce junior developers, what I will say is that I believe you could teach a motivated enough student to write simple web applications using modern technologies in just ten weeks. This doesn’t seem particularly unrealistic to me. Most of the difficulty would be in memorizing patterns and learning to be comfortable when debugging.&lt;/p&gt;
-
-&lt;p&gt;What does seem unrealistic is expecting these people to land developer positions right out of those ten weeks. What the program lacks is the years of unconscious meditation that simply putting in those ten-thousand hours builds. In other words, deliberate practice is most certainly required, and ten weeks of deliberate practice likely isn’t enough to be considered a great developer.&lt;/p&gt;
-
-&lt;p&gt;But it is most certainly a start, and there are a considerable number of free resources which do teach the content required to be a competent junior developer. Resources like Harvard’s CS 50 and the catalog of Coursera courses. Hell, Google has actually published a &lt;a href=&quot;https://www.google.com/about/careers/students/guide-to-technical-development.html&quot;&gt;list of resources&lt;/a&gt; it believes could produce well-rounded students of computer science, ready to interview for junior positions.&lt;/p&gt;
-
-&lt;p&gt;The harsh reality that I feel many developers fail to acknowledge is just how little one needs to know in order to build simple web applications. Indeed, if you cut all the theory out of my Web Applications course in college and replaced it with hands on tutorials of new technologies I could learn all I needed start my own boutique web company in 15 weeks flat!&lt;/p&gt;
-
-&lt;p&gt;There’s very little in the way of ‘shortcuts’ to becoming a great developer. And this is where I will, at last, side with Hadlow. No matter what it is you want to do, to become a master, you must put in your ten-thousand hours. But do you need to be a master to work at a web company? &lt;em&gt;Fuck no.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
-
-&lt;h4 id=&quot;will-the-hour-of-code-movement-provide-a-net-benefit-to-the-community&quot;&gt;Will the “hour-of-code” movement provide a net benefit to the community?&lt;/h4&gt;
-
-&lt;p&gt;Absolutely!&lt;/p&gt;
-
-&lt;h4 id=&quot;will-it-solve-the-worker-shortage&quot;&gt;Will it solve the worker shortage?&lt;/h4&gt;
-
-&lt;p&gt;No! But it will certainly assist it.&lt;/p&gt;
-
-&lt;h4 id=&quot;are-services-which-charge-thousands-of-dollars-for-a-handful-of-weeks-worth-of-training-going-to-produce-excellent-junior-developers&quot;&gt;Are services which charge thousands of dollars for a handful of weeks worth of training going to produce excellent junior developers?&lt;/h4&gt;
-
-&lt;p&gt;Likely, not, but they can certainly get a start working on simple websites. A pursuit which could easily support someone while they continue to learn and further their career.&lt;/p&gt;
-
-&lt;h4 id=&quot;are-those-courses-the-only-way-to-transition-into-tech&quot;&gt;Are those courses the only way to transition into tech?&lt;/h4&gt;
-
-&lt;p&gt;Nope! High-Quality, free resources exist on the Internet. A particularly motivated student will extract a much greater value from these free resources.&lt;/p&gt;
-
-&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;“The Role of Deliberate Practice in the Acquisition of Expert Performance”&lt;/em&gt; K. Anders Ericsson, Ralf Th. Krampe, and Clemens Tesch-Romer, &lt;em&gt;Psychological Review&lt;/em&gt;, 1993 (Vol. 100. No. 3, 363-406)&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/anyone-can-code/&quot;&gt;Ten-Thousand Hours of Code&lt;/a&gt; was originally published by MDST Staff at &lt;a href=&quot;&quot;&gt;Michigan Data Science Team&lt;/a&gt; on November 16, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/anyone-can-code/&quot;&gt;This is a dummy post&lt;/a&gt; was originally published by MDST Staff at &lt;a href=&quot;&quot;&gt;Michigan Data Science Team&lt;/a&gt; on November 16, 2015.&lt;/p&gt;
   </content>
 </entry>
 
