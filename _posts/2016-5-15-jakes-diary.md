@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jake's Diary: Hipster Lorem Ipsum"
-excerpt: "Alex shares a paper he likes."
+excerpt: "Jake shares a link to a cool thing from the internet"
 share: false
 author: jake
 tags: []
