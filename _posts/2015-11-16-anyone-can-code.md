@@ -3,6 +3,8 @@ layout: post
 title: "This is a dummy post"
 excerpt: "Eventually, there will be real posts ..."
 share: false
+image:
+    feature: MDST-team.jpg
 modified: 2015-12-30
 tags: []
 ---

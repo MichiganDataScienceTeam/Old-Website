@@ -2,6 +2,8 @@
 layout: page
 title: About MDST
 tags: []
+image:
+    feature: MDST-team.jpg
 comments: false
 share: false
 ---
