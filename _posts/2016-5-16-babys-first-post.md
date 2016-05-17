@@ -3,7 +3,6 @@ layout: post
 title: "Baby's First Post"
 excerpt: "Jonathan screws around with the new webiste."
 share: false
-image:
 author: jonathan
 tags: [test]
 ---
