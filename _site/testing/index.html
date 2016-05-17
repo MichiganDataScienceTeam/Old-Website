@@ -1,0 +1,339 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>testing &#8211; TheAlex@umich</title>
+<meta name="description" content="Also testing">
+<meta name="keywords" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="testing">
+<meta name="twitter:description" content="Also testing">
+<meta name="twitter:site" content="@the_Chojnacki">
+<meta name="twitter:creator" content="@the_Chojnacki">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="testing">
+<meta property="og:description" content="Also testing">
+<meta property="og:url" content="/testing/">
+<meta property="og:site_name" content="TheAlex@umich">
+
+
+
+
+
+<link rel="canonical" href="/testing/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="TheAlex@umich Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="/">TheAlex@umich</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				    
+				    <li><a href="/about/" >About Me</a></li>
+				
+				    
+				    <li><a href="/posts/" >Posts</a></li>
+				
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+<div itemscope itemtype="http://schema.org/Person">
+
+
+	<img src="/images/bio-photo.jpg" class="bio-photo" alt="Alex Chojnacki bio photo">
+
+
+  <h3 itemprop="name">Alex Chojnacki</h3>
+  <p>Bit shifter for hire.</p>
+  <a href="mailto:thealex@umich.edu" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+  <a href="http://twitter.com/the_Chojnacki" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+  
+  
+  
+  
+  
+  
+  <a href="http://github.com/the-alex" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1><a href="/testing/" rel="bookmark" title="testing">testing</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p><em>Alex Chojnacki :: thealex</em></p>
+
+<h1 id="cracking-vigenre">Cracking Vigenère</h1>
+<p>The following matlab code follows the proceadures outlined in the “Cryptonalysis of Vigenère” section of the book. The function takes a ciphertext, an assumed key size, and a <code>k_max</code>, which defines how many of the most likely key characters should be shown. This effectively returns a matrix where the rows are the possible charaters for each character in the key, and the columns are the most likely elements for that character in the key.</p>
+
+<pre><code>function [ potential_key_message_pairs ] = crack(ciphertext, key_size, k_max)
+%CRACK takes ciphertext and key sizes to guess.
+
+ENG_ALPH = ['A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'J' 'K' 'L' 'M' 'N' 'O' 'P' 'Q' 'R' 'S' 'T' 'U' 'Z' 'W' 'X' 'Y' 'Z']';
+load 'english_freq.mat'
+load 'ciphertext.mat'
+
+% Each potential key will be 
+potential_key_message_pairs = zeros(key_size, k_max);
+
+% For each character in the key ...
+for i = 1:key_size
+    % get every key_size'th character starting at i
+    cipher_nth = ciphertext(i:key_size:length(ciphertext))';
+    scores = zeros(26, 1);
+    % for every letter ... 
+    for let = 1:length(ENG_ALPH)
+        % ... shift the letter in the cipher by let.
+        %   This should wrap arround for 
+        cipher_nth_let = mod(cipher_nth - 1 - ENG_ALPH(let), 26) + 1;
+        
+        for j = 1:length(cipher_nth_let)
+            cipher_nth_let(j) = p(cipher_nth_let(j));
+        end
+        scores(let) = sum(cipher_nth_let);
+    end
+    
+    [sorted_sums,sorted_inds] = sort(scores,'descend');
+    % sorted_sums will be in descending order. Therefore, the first N elements will be the N maximum values.
+
+    maxValues = sorted_sums(1:k_max);
+    maxValueIndices = sorted_inds(1:k_max);
+    
+    maxValueIndices = char(maxValueIndices + 'A');
+    
+    potential_key_message_pairs(i, :) = maxValueIndices';
+end
+end
+
+</code></pre>
+
+<p>running the code …</p>
+
+<pre><code>&gt;&gt; char(crack(ciphertext, 3, 1))
+
+ans =
+
+F
+O
+O
+
+</code></pre>
+
+<p>… where <code>FOO</code> is the most likely characters for each character in the key. Using <code>FOO</code> to decode the ciphertext, we get …</p>
+
+<blockquote>
+  <p>HOW DOTH THE LITTLE CROCODILE IMPROVE HIS SHINING TAIL</p>
+</blockquote>
+
+<h1 id="substitution-cipher-secrecy">Substitution Cipher Secrecy</h1>
+<p>For a monoalphabetic substitution cipher, the encryption process entails mapping K letters in the plaintext alphabet to K letters in the ciphertext alphabet. The definition of perfect secrecy tells us that in order for a ciphertext to be considered ‘perfectly secure’, no ciphertext must reveal any information about the message. Equivallently, the probability of seeing a certain message given a ciphertext should be no more or less likely than seeing the message alone.</p>
+
+<script type="math/tex; mode=display">p(M|C)=P(M)</script>
+
+<p>In the case of the monoalphabetic substitution cipher, we know that the mappings presist throughout the encoding process; for example, the mapping <code>A-&gt;B</code> would encrypt the plaintext <code>AA</code> as <code>BB</code>, thus revealing the key (mappings) to be one of 26 possible keys.</p>
+
+<p>This means that for an arbitrary message of length 2, all paired letter encodings (<code>AA</code>, <code>BB</code>, etc.) would reveal some information about the message given the ciphertext- namely that it consists of two repeating letters. This is true for all larger mesaages as well. Therefore, the only reasonable length for which the message is perfectly secure is $L=1$</p>
+
+<p>In more formal terms …</p>
+
+<p><script type="math/tex">Pr(C_i) = \frac{1}{26^2}</script>
+<script type="math/tex">Pr(C_i = "BB" | M_i = "AB") = 0</script>
+<script type="math/tex">\therefore \space Pr(C_i) \neq Pr(C_i | M_i)</script></p>
+
+<h1 id="aphine-cipher">Aphine Cipher</h1>
+
+<h2 id="valid-values-of-a">Valid Values of $a$</h2>
+
+<p><code>{a | a &lt;= 26 &amp;&amp; a % 2 == 1 &amp;&amp; a != 13}
+= 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 26
+</code></p>
+
+<h2 id="cracking-aphine">Cracking Aphine</h2>
+
+<pre><code class="language-python">from pprint import pprint
+As = [a for a in range(1, 27) if ((a % 2 != 0) and (a != 13))]
+ciphertext = [13, 9, 9, 10, 7, 10, 20, 11, 20, 9]
+
+possile_plaintexts = [[chr(((a * x) % 26) + 64) for x in ciphertext] for a in As]
+
+pprint(possile_plaintexts)
+</code></pre>
+
+<pre><code>[['M', 'I', 'I', 'J', 'G', 'J', 'T', 'K', 'T', 'I'],
+ ['M', 'A', 'A', 'D', 'U', 'D', 'H', 'G', 'H', 'A'],
+ ['M', 'S', 'S', 'X', 'I', 'X', 'V', 'C', 'V', 'S'],
+ ['M', 'K', 'K', 'R', 'W', 'R', 'J', 'Y', 'J', 'K'],
+ ['M', 'C', 'C', 'L', 'K', 'L', 'X', 'U', 'X', 'C'],
+ ['M', 'U', 'U', 'F', 'Y', 'F', 'L', 'Q', 'L', 'U'],
+ ['M', 'E', 'E', 'T', 'A', 'T', 'N', 'I', 'N', 'E'],
+ ['M', 'W', 'W', 'N', 'O', 'N', 'B', 'E', 'B', 'W'],
+ ['M', 'O', 'O', 'H', 'C', 'H', 'P', 'A', 'P', 'O'],
+ ['M', 'G', 'G', 'B', 'Q', 'B', 'D', 'W', 'D', 'G'],
+ ['M', 'Y', 'Y', 'V', 'E', 'V', 'R', 'S', 'R', 'Y'],
+ ['M', 'Q', 'Q', 'P', 'S', 'P', 'F', 'O', 'F', 'Q']]
+</code></pre>
+
+<p><code>MEET AT NINE</code></p>
+
+<h2 id="keys-for-aphine">Keys for Aphine</h2>
+<p>A key for the aphine cipher can be thought of as a combination of valid vaules for $a$ and valid values for the offset variable $b$. The valid values of $a$ were calculated above, and $b$ can be any value between 0 and 25 to offset the result of $ax$, so it follows that the number of possible keys will be all possible pairings of ${b, a}$, which is equal to …</p>
+
+<pre><code class="language-python">pairs = len(As) * 26
+print("Number of possible keys ::", pairs)
+</code></pre>
+
+<pre><code>Number of possible keys :: 312
+</code></pre>
+
+<h2 id="vigenre--aphine">Vigenère + Aphine</h2>
+<p>By cycling through the set of $b_k \in B$, we add another combinatorial layer to the sipher. Whereas before, we could only configure keys by pairs of ${a, b}$, now we can also choose what values are in the set of $b_k \in B$, and which order they are in.</p>
+
+<p>We know that each $b_k$ must be an integer between 0 and 25 and we know there are $k$ number of $b$. This means there are $26^k$ possible sets of $B$. But we also know there are $k$ possible starting positions for the set of $B$ to begin cycling through.</p>
+
+<p>$\text{number of keys}= 11 * 26^k * k$</p>
+
+<h1 id="homophonic-cipher">Homophonic Cipher</h1>
+<p>## Show that in general …
+We can show this relationship generally by invoking Bayes theorem. Even though we are dealing with entropy, the underlying definition is rooted in proabilities, conveniently allowing us to use the folowing theorem …
+<script type="math/tex">H(K|C)=\frac{H(C|K)H(K)}{H(C)}</script></p>
+
+<h2 id="show-that-for-the-situation-">Show that for the situation …</h2>
+<p>Fix a particular message and key length and you’ll find that you end up with log of k_i.
+<script type="math/tex">H(C | M, K)=\sum_{i=1}^{J}{\frac{k_i}{N}log(k_i)}</script>
+<script type="math/tex">H(C | M, K)=\sum_{i=1}^{J}{log(k_i)}</script></p>
+
+<p>Then, we are able to factor the sum because the two vairables are independent.
+## Can it be broken
+Yes!</p>
+
+<pre><code class="language-python">
+</code></pre>
+
+      <hr />
+      <footer role="contentinfo">
+        
+        <p class="byline"><strong>testing</strong> was published on <time datetime="2015-11-17T00:00:00-05:00">November 17, 2015</time> and last modified on <time datetime="2015-12-30">December 30, 2015</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="/anyone-can-code/" title="Ten-Thousand Hours of Code">Ten-Thousand Hours of Code</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2016 Alex Chojnacki. Graciously supported by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using a theme I borrowed from <a href="http://mademistakes.com/" rel="nofollow"><em>this guy!</em></a></span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-72821193-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+	        
+
+</body>
+</html>
