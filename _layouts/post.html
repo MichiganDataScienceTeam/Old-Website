@@ -22,8 +22,8 @@
       "{{ site.url }}/images/{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% if page.image.caption %}
+    <span class="image-credit">{{ page.image.caption }}</a></span>
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
@@ -42,6 +42,9 @@
             {% endif %}
           alt="{{ page.title }} feature image">
       {% endif %}
+      <!-- Really lazy fix because I didn't want to mess with css-->
+      <br/>
+      <br/>
     <div class="headline-wrap">
       {% if page.link %}
         <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
