@@ -33,6 +33,15 @@
     {% include _author-bio.html %}
   </div>
   <article class="post">
+      {% if page.image.heading %}
+        <img src=
+            {% if page.image.heading contains 'http' %}
+              "{{ page.image.feature }}"
+            {% else %}
+              "{{ site.url }}/images/{{ page.image.heading }}"
+            {% endif %}
+          alt="{{ page.title }} feature image">
+      {% endif %}
     <div class="headline-wrap">
       {% if page.link %}
         <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
@@ -69,7 +78,7 @@
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}	        
+{% include _scripts.html %}
 
 </body>
 </html>
