@@ -36,11 +36,11 @@
       {% if page.image.heading %}
         <img src=
             {% if page.image.heading contains 'http' %}
-              "{{ page.image.feature }}"
+              "{{ page.image.heading }}"
             {% else %}
               "{{ site.url }}/images/{{ page.image.heading }}"
             {% endif %}
-          alt="{{ page.title }} feature image">
+          alt="{{ page.title }} heading image">
       {% endif %}
       <!-- Really lazy fix because I didn't want to mess with css-->
       <br/>
