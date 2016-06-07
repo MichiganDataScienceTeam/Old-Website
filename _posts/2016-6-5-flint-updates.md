@@ -37,7 +37,10 @@ share: false
     * Collaboration at Umich
         * I don't know what happened at the Natlie meeting. Waiting on #exec response.
 
-Somewhere we should talk about the ROWE Service Line Pilot Report
+* Yet to be worked into draft outline
+    * ROWE Service Line Pilot Report
+    * The Google grant
+    * General Google support from G-maps and NVidia
 
 ----
 
