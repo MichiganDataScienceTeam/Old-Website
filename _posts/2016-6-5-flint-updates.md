@@ -1,56 +1,28 @@
 ---
-title: Placeholder Title
+title: MDST Partners with UM-Flint & Google.org to Aid Locals in Flint Water Crisis
 layout: post
+image:
+    heading: mdst-logo.png
 share: false
 ---
 
 ## Notes
 
-### Data Dive Results
+@stroud to me
+"MDST Partners with UM-Flint & Google to Help with the Flint Water Crisis"
+This is just announcing the same stuff that made the news a while back & giving some background info on the water crisis. Jake can clarify the relationships between all the organizations that are involved in the grant. (1.5) I’m undecided on whether to include stuff about the field trip in this post or save it for another.
 
-* Elevated lead levels are less than 9% of samples.
-* Property age is highly correllated to high lead levels.
-    * We see a spike in lead levels for homes which were built around 1950.
-* The material of the service line is not as predictive as the common narrative suggests.
-    * _"We still see high lead readings even when a property's service lines are made of copper, zinc, and other materials."_
+## Outline
 
+* Recap preliminary work on Flint
+* Address our involvement with UM-Flint and Google
+* Look to the future!
 
-### Water Service Inventory and Pilot Replacement
+## Draft
 
-* "Conclusions" pg.10
-    * _The pilot demonstrated that the service material pipe demonstrated by the city’s records was about 63 percent accurate._
-    * _Costs have not yet been finalized, but excluding permits, the average cost for replacing a service was $7,500_
+The Michigan Data Science Team is excited to have partnered with Google and University of Michigan-Flint to engineer a data platform and accompanying app in our continued efforts to help the community of Flint using our data analytics skillset. This app will provide users with information regarding key public services like water bottle distribution centers and the ability to request new water testing kits. Users will also be able to report concerns about the water at their location, and even access our predictive model to warn users at potentially high risk locations.
 
-### Outline
+Google.org is providing the University of Michigan-Flint $150,000 to built the platform and the app, as well as providing access to google engineering consultants who will aid in producing visualizations using the Google Maps API and oversee the user interface design of the app. MDST has created a multidisciplinary engineering team team to oversee and manage the creation of our predictive model and data platform.
 
-* History of the problem.
-    * The switch from Detroit water to the backup system in Flint.
-    * The VT Study
-* Our efforts
-    * Flint field day
-    * MDST's two reports.
-    * Big takeaways from our efforts
-        * The common wisdom in Lancing right now--that government owned lead service lines account for a majority of the lead--is at the very least questionable and at worst completely incorrect. If our suspicions are correct, then the City of Flint may be committing to a costly non-solution to Flint's water woes.
-* Plans for the future.
-    * Partnership with Flint Action
-        * Their plan to collect data from residents
-    * Collaboration at Umich
-        * I don't know what happened at the Natlie meeting. Waiting on #exec response.
-
-* Yet to be worked into draft outline
-    * ROWE Service Line Pilot Report
-    * The Google grant
-    * General Google support from G-maps and NVidia
-
-----
-
-# Working Draft
-
-The Flint Water Crisis began when the City of Flint switched it's water provider from its then primary provider, the Detroit Water and Sewerage Department, to its backup system which sourced from the Huron River. The backup system was used in the past for brief periods of time, but up to that point had not been relied upon for multiple months. River water, often more corrosive due to runoff into the river, began to corrode the materials lining the inside of the pipes, leading to the lead contamination as we now see it.
-
-After complains regarding the smell and the appearence of the water had been established, Marc Edwards, and engineer from Virginia Tech, concluded a round of research efforts confirming 'EPA Action Levels' of lead in the Flint water supply.
-
-<!-- Not sure how to transition here -->
-
-The Michigan Data Science Team began work on the Flint Water Crisis in early 2016. We began collecting all the public datasets we could find and made contact with the city of Flint to see if they could provide us any additional data. The city government was incredibly receptive to our requests, providing us with data and inviting the MDST organization to spend a day in flint to talk with officialls in a Q&A session.
+We will continue our efforts to ask and answer the data related questions surrounding the crisis in order to provide as much value as we can to the people of Flint. We are incredibly grateful for the support from Google and for the chance to collaborate with our friends and fellow researchers at the University of Michigan-Flint campus.
 
