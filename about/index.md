@@ -13,21 +13,21 @@ The Michigan Data Science Team (MDST) is a club at the University of Michigan wh
 # Current Board
 
 
-### Jacob Abernethy, Ph.D., Faculty Advisor
+### Jacob Abernethy, Ph.D., Faculty Advisor, Founder
 <img src="/images/Abernethy.png" style="max-width: 150px">
 
 Jake is an assistant professor in the department of Electrical Engineering and Computer Science (EECS) at the University of Michigan. His primary interest is in Machine Learning, with a particular focus in sequential decision making, online learning, online algorithms and adversarial learning models.
 
 ---
 
-### Eric Schwartz, Ph.D., Faculty Consultant
+### Eric Schwartz, Ph.D., Faculty Advisor
 <img src="/images/eric.jpg" style="max-width: 150px">
 
 Professor Eric Schwartz's expertise focuses on predicting customer behavior, understanding its drivers, and examining how firms actively manage their customer relationships through interactive marketing. His research in customer analytics stretches managerial applications, including online display advertising, email marketing, video consumption, and word-of-mouth. 
 
 ---
 
-### Jonathan Stroud, Organizational Chair
+### Jonathan Stroud, Organizational Chair, Founder
 <img src="/images/stroud.jpg" style="max-width: 150px">
 
 Jonathan is a first year Ph.D. student in the department of Computer Science and Engineering (CSE). His research interests are in Machine Learning and Computer Vision, including deep learning, structured prediction, and knowledge representation.
