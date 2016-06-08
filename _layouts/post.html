@@ -23,7 +23,7 @@
     {% endif %}
   alt="{{ page.title }} feature image">
   {% if page.image.caption %}
-    <span class="image-credit">{{ page.image.caption }}</a></span>
+    <span class="image-credit">{{ page.image.caption }}</span>
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
@@ -42,6 +42,10 @@
             {% endif %}
           alt="{{ page.title }} heading image">
       {% endif %}
+      {% if page.image.caption %}
+        <span class="image-credit">{{ page.image.caption }}</span>
+      {% endif %}
+
       <!-- Really lazy fix because I didn't want to mess with css-->
       <br/>
       <br/>
