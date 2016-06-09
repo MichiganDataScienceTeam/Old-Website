@@ -3,7 +3,7 @@ layout: page
 title: About MDST
 tags: []
 image:
-    feature: MDST-team.jpg
+    feature: mdst-group-photo-flint.jpg
 comments: false
 share: false
 ---
@@ -12,6 +12,7 @@ The Michigan Data Science Team (MDST) is a club at the University of Michigan wh
 
 # Current Board
 
+---
 
 ### Jacob Abernethy, Ph.D., Faculty Advisor, Founder
 <img src="/images/Abernethy.png" style="max-width: 150px">
