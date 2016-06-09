@@ -45,6 +45,16 @@
       <hr />
     </div>
   </article>
+  <!--
+      Here's another jank fix for the main page.
+      I have this second author-side class in order
+      to buffer the left border of the 'recent posts'
+      section. I'm sorry, I know it's bad.
+  -->
+   <div class="article-author-side" style="visibility: hidden">
+    {% include _author-bio.html %}
+  </div> 
+  <!-- end jank -->
   <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
     {% for post in site.posts limit:5 %}    
