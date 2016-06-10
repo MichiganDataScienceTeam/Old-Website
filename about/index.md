@@ -3,7 +3,9 @@ layout: page
 title: About MDST
 tags: []
 image:
-    feature: mdst-group-photo-flint.jpg
+    feature: mdst-group-photo-meeting-1-thin.jpg
+    credit: Eric Shwartz
+    creditlink: /about/#eric-schwartz-phd-faculty-advisor
 comments: false
 share: false
 ---
