@@ -3,7 +3,9 @@ layout: page
 title: About MDST
 tags: []
 image:
-    feature: mdst-group-photo-flint.jpg
+    feature: mdst-group-photo-meeting-1-thin.jpg
+    credit: Eric Shwartz
+    creditlink: /about/#eric-schwartz-phd-faculty-advisor
 comments: false
 share: false
 ---
@@ -24,7 +26,7 @@ Jake is an assistant professor in the department of Electrical Engineering and C
 ### Eric Schwartz, Ph.D., Faculty Advisor
 <img src="/images/eric.jpg" style="max-width: 150px">
 
-Professor Eric Schwartz's expertise focuses on predicting customer behavior, understanding its drivers, and examining how firms actively manage their customer relationships through interactive marketing. His research in customer analytics stretches managerial applications, including online display advertising, email marketing, video consumption, and word-of-mouth. 
+Professor Eric Schwartz's expertise focuses on predicting customer behavior, understanding its drivers, and examining how firms actively manage their customer relationships through interactive marketing. His research in customer analytics stretches managerial applications, including online display advertising, email marketing, video consumption, and word-of-mouth.
 
 ---
 
@@ -46,4 +48,59 @@ Jared Webb obtained his undergraduate degree in Applied Math and is currently se
 <img src="/images/thealex-square.jpg" style="max-width: 150px">
 
 Alex is an undergraduate at the University of Michigan, pursuing a B.S. in Computer Science with a wide variety of companion topics such as design, psychology, and math.
+
+# Current Members
+
+---
+
+### Arya Farahi
+
+* _Ph.D in Physics_
+* Competitions Completed: _Springleaf, RateMyProfessor, FARS, Anything from the Flint Project_
+* _I am currently a Ph.D student in Physics. My main area of research is Clusters of Galaxies and Large-Scale Structures, with emphasis on multiwavelength clusters finder algorithms and systematics._
+* [Personal Page](http://www-personal.umich.edu/~aryaf/)
+
+---
+
+### Cyrus Anderson
+
+* Competitions Completed: _FARS, UMS Visualization, Anything from the Flint Project_
+* _AI and Japanese enthusiast_
+* [Personal Page](https://sites.google.com/a/umich.edu/cyrus-anderson/)
+
+---
+
+### Alexander Zaitzeff
+
+* _PhD in Applied and Interdisciplinary Mathematics_
+* Competitions Completed: _Springleaf, RateMyProfessor, Anything from the Flint Project_
+* _"If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is." -- John von Neumann_
+* [Personal Page](www.zaitzeff.org)
+
+---
+
+### Jingye Liu
+
+* _Masters in Information Science & Electrical and Computer Engineering_
+* Competitions Completed: _Anything from the Flint Project_
+* _My specializations are information retrieval, information analysis, and machine learning._
+* [Personal Page](https://www.linkedin.com/in/jingye-liu-5a45b449)
+
+---
+
+### Guangsha Shi
+
+* _Ph.D student in Materials Science and Scientific Computing_
+* Competitions Completed: _RateMyProfessor, FARS, UMS Visualization, Anything from the Flint Project_
+* _I do computational study of solid-state physics. Also interested in machine learning._
+* [Personal Page](https://www.linkedin.com/in/guangsha)
+
+---
+
+### Chengyu Dai
+
+* _Ph.D student in Physics_
+* Competitions Completed: _FARS, UMS Visualization, Anything from the Flint Project_
+* _I am the Captain Bidiu!_
+* [Personal Page](www.bidiu.me!)
 
