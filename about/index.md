@@ -51,6 +51,8 @@ Alex is an undergraduate at the University of Michigan, pursuing a B.S. in Compu
 
 # Current Members
 
+A list of members who volunteered to be publicly identified on this page.
+
 ---
 
 ### Arya Farahi
