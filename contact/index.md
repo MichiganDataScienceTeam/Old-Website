@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Contact Us
-image:
-    heading: mdst-logo.png
 share: false
 comments: false
 
