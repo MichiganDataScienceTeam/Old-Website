@@ -106,3 +106,36 @@ A list of members who volunteered to be publicly identified on this page.
 * _I am the Captain Bidiu!_
 * [Personal Page](www.bidiu.me!)
 
+---
+
+### Wenbo Shen
+
+* _Ph.D in Physics_
+* Competitions Completed: _FARS, UMS Visualization, Anything from the Flint Project_
+* _"All models are wrong, but some are useful" (George E. P. Box, 1976)._
+* [Personal Page](https://www.linkedin.com/in/wenbo-shen-1a766276)
+
+---
+
+### Anthony Kremin
+
+* _Univ. of Michigan Ph.D. Candidate, Physics_
+* Competitions Completed: _Springleaf, Anything from the Flint Project_
+* _I am a PhD student studying observational cosmology at the University of Michigan, with general interest in data science and machine learning._
+
+---
+
+### Sheng Yang
+
+* _Ph.D in Physics_
+* Competitions Completed: _RateMyProfessor, FARS, UMS Visualization, Anything from the Flint Project_
+* [Personal Page](https://www.linkedin.com/in/physheng)
+
+---
+
+### Xinyu Tan
+
+* _Ph.D in Mechanical Engineering_
+* Competitions Completed: _Springleaf, RateMyProfessor, UMS Visualization, Anything from the Flint Project_
+* _I am an experimental biologist and have an interest in machine learning and visualization._
+

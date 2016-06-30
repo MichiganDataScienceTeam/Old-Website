@@ -2,8 +2,9 @@
 # and converts the data into markdown for easy posting to the about page.
 
 from pandas import read_csv
+import sys
 
-df = read_csv('sheet.csv')
+df = read_csv(sys.argv[1])
 # Convert the table to a list of lists. Each list is a row from the spreadsheet.
 rows = list(map(list, df.values))
 
