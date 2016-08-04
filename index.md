@@ -2,9 +2,6 @@
 title: Competitive Data Science at Michigan.
 image:
     feature: mdst-banner-thinner.jpg
-    credit: Aaron Pollack
-    creditlink: http://www.aaronapollack.com/
-
 layout: home
 ---
 
