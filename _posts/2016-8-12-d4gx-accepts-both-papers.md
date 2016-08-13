@@ -1,5 +1,5 @@
 ---
-title: Bloomberg Conference Accepted Both Papers!
+title: Bloomberg Conference Accepts Both MDST Papers!
 layout: post
 author: alex
 image:
