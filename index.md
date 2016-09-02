@@ -7,7 +7,7 @@ layout: home
 
 ---
 
-### [Info Session on Thursday, the 9th of September at 6pm in 1670 BBB!]({{ site.url  }}/mdst-info-session-f16/)
+### [Info Session on Thursday, the 8th of September at 6pm in 1670 BBB!]({{ site.url  }}/mdst-info-session-f16/)
 _([check out our flier here!]({{ site.url }}/assets/files/info-session-v0.pdf))_
 
 ---
