@@ -47,28 +47,38 @@ Jared Webb obtained his undergraduate degree in Applied Math and is currently se
 ### Alex Chojnacki, Communications Chair
 <img src="/images/thealex-square.jpg" style="max-width: 150px">
 
-Alex is an undergraduate at the University of Michigan, pursuing a B.S. in Computer Science with a wide variety of companion topics such as design, psychology, and math.
-
-# Current Members
-
-A list of members who volunteered to be publicly identified on this page.
+Alex is an undergraduate at the University of Michigan, pursuing a B.S. in Computer Science with a wide variety of companion topics such as design, psychology, and math. As Communications Chair, Alex maintains contact with the greater club membership, promoting their ideas and advocating for their concerns. He also manages the website, email lists, and social accounts, responding to any inquiries across those mediums.
 
 ---
 
-### Arya Farahi
+### Arya Farahi, Team Captain A
+<img src="/images/arya.jpg" style="max-width: 150px">
 
-* _Ph.D in Physics_
-* Competitions Completed: _Springleaf, RateMyProfessor, FARS, Anything from the Flint Project_
-* _I am currently a Ph.D student in Physics. My main area of research is Clusters of Galaxies and Large-Scale Structures, with emphasis on multiwavelength clusters finder algorithms and systematics._
+Arya obtained his undergraduate degree in Mechanical Engineering and Physics. He is currently seeking a PhD in Physics at the University of Michigan - Ann Arbor. His main area of research is Clusters of Galaxies and Large-Scale Structures in the Universe, with emphasis on multiwavelength clusters detection algorithms. He is working on large-scale simulations to characterizing X-Ray and optical cluster finders. As Team Captain A, Arya helps in leading high-impact projects and leads a small group of advanced team members on public Kaggle challenges.
+
 * [Personal Page](http://www-personal.umich.edu/~aryaf/)
 
 ---
 
-### Cyrus Anderson
+### Cyrus Anderson, Recruitment Chair
 
-* Competitions Completed: _FARS, UMS Visualization, Anything from the Flint Project_
-* _AI and Japanese enthusiast_
+AI and Japanese Enthusiast. As the Recruitment Chair, Cyrus is the primary point of contact for recruiting efforts within the club. He promotes the club by giving pitches to other clubs, organizations, and classes on campus. He also designs fliers and organizes our outreach strategies.
+
 * [Personal Page](https://sites.google.com/a/umich.edu/cyrus-anderson/)
+
+---
+
+### Chengyu Dai, Data Manager
+
+* _Ph.D student in Physics_
+* Competitions Completed: _FARS, UMS Visualization, Anything from the Flint Project_
+* [Personal Page](www.bidiu.me!)
+
+---
+
+# Current Members
+
+A list of members who volunteered to be publicly identified on this page.
 
 ---
 
@@ -96,15 +106,6 @@ A list of members who volunteered to be publicly identified on this page.
 * Competitions Completed: _RateMyProfessor, FARS, UMS Visualization, Anything from the Flint Project_
 * _I do computational study of solid-state physics. Also interested in machine learning._
 * [Personal Page](https://www.linkedin.com/in/guangsha)
-
----
-
-### Chengyu Dai
-
-* _Ph.D student in Physics_
-* Competitions Completed: _FARS, UMS Visualization, Anything from the Flint Project_
-* _I am the Captain Bidiu!_
-* [Personal Page](www.bidiu.me!)
 
 ---
 
