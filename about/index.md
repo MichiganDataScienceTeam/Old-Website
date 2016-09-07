@@ -37,10 +37,10 @@ Jonathan is a first year Ph.D. student in the department of Computer Science and
 
 ---
 
-### Jared Webb, Team Captain
+### Jared Webb, Team Captain B
 <img src="/images/jared.jpg" style="max-width: 150px">
 
-Jared Webb obtained his undergraduate degree in Applied Math and is currently seeking his Ph.D. in Applied Math, both from Brigham Young University. As Team Captain, Jared designs and presents tutorials on technical subjects within machine learning and data science for the benefit of the team.
+Jared Webb obtained his undergraduate degree in Applied Math and is currently seeking his Ph.D. in Applied Math, both from Brigham Young University. As Team Captain B, Jared designs and presents tutorials on technical subjects within machine learning and data science for the benefit of the team.
 
 ---
 
