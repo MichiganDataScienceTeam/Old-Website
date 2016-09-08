@@ -61,6 +61,7 @@ Arya obtained his undergraduate degree in Mechanical Engineering and Physics. He
 ---
 
 ### Cyrus Anderson, Recruitment Chair
+<img src="/images/cyrus.jpg" style="max-width: 150px; border-radius: 10px">
 
 Currently finishing his undergraduate degrees in Mathematics, Economics, and Computer Science Engineering. His current research deals with learning in fully cooperative multiagent systems. His interests include autonomy, learning, and robotic sensing. In addition, becoming fluent in Japanese.
 
