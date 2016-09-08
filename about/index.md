@@ -73,7 +73,7 @@ As Recruitment Chair, Cyrus plans initiatives for the team's expansion through r
 ### Chengyu Dai, Data Manager
 <img src="/images/chengyu.jpg" style="max-width: 150px; border-radius: 10px">
 
-How can one be more than just a database guy? How can we scale MDST collaboration painlessly with custom data architectures? These are what these are the questions Chengyu strives to answer as MDST's data manager.
+How can one be more than just a database guy? How can we scale MDST collaboration painlessly with custom data architectures? These are the questions Chengyu strives to answer as MDST's data manager.
 
 * [Linkedin](https://www.linkedin.com/in/chengyu-dai-5170a355)
 
