@@ -5,6 +5,17 @@ image:
 layout: home
 ---
 
+---
+
+### Meeting Times for Fall 2016
+* **Tutorial Series:** Wednesdays, 5:00pm to 6:00pm in SRB 2246
+* **Project Team Meetings:** Thursdays 5:30pm to 6:30 in BBB 3725
+
+_Check the_ **[calendar](/calendar/)** _to confirm there is a meeting!_
+
+---
+
+
 The Michigan Data Science Team (MDST) is a competitive collegiate data science team at the University of Michigan, Ann Arbor. Together, we compete against professional and amateur data scientists from around the world in online prediction challenges.
 
 Competitive data science has become increasingly prominent in the past decade with the immense popularity of high-profile competitions such as The Netflix Prize. Now, online venues such as Kaggle, DrivenData, and Quantopian, among others, provide platforms for data scientists around the world to make impactful contributions to a huge variety of prediction problems while competing for cash prizes. Previous competitions have explored prediction problems in healthcare, particle physics, finance, and countless other domains, and have involved many types of structured and unstructured data.
