@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+S3_BUCKET=mdst.eecs.umich.edu
+
+# Prevent conflicting env vars
+unset GIT_DIR
+unset GIT_WORK_TREE
+
+# Build and sync
+jekyll build
+s3cmd sync --delete-removed --acl-public --exclude '.git/*' _site/ s3://$S3_BUCKET/
+echo "Finished syncing to S3 ..."
