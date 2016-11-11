@@ -91,7 +91,7 @@ A list of members who volunteered to be publicly identified on this page.
 * _PhD in Applied and Interdisciplinary Mathematics_
 * Competitions Completed: _Springleaf, RateMyProfessor, Anything from the Flint Project_
 * _"If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is." -- John von Neumann_
-* [Personal Page](www.zaitzeff.org)
+* [Personal Page](http://www.zaitzeff.org)
 
 ---
 
