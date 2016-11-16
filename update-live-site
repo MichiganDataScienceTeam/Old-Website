@@ -1,12 +1,52 @@
 #!/usr/bin/env bash
 
 S3_BUCKET=mdst.eecs.umich.edu
+# Check for s3cmd
+S3CMD=$(which s3cmd)
+if [ -z "$S3CMD" ]; then
+    echo "################"
+    echo "  Missing prerequisite command line interface."
+    echo "  Please install \"s3cmd\" and rerun this script."
+    echo "################"
+    exit
+fi
+
+# Check for gpg
+GPG=$(which gpg)
+if [ -z "$GPG" ]; then
+    echo "################"
+    echo "  Missing prerequisite decryption program."
+    echo "  Please install \"s3cmd\" and rerun this script."
+    echo "################"
+    exit
+fi
+
+# Decrypt s3cgf
+INFO=$(gpg --decrypt s3cfg.gpg)
+if [ -z "$INFO" ]; then
+    echo "################"
+    echo "  Decryption Failed."
+    echo "################"
+    exit
+fi
 
 # Prevent conflicting env vars
 unset GIT_DIR
 unset GIT_WORK_TREE
 
 # Build and sync
+echo
+echo "#### BUILDING ####"
+echo
+
 jekyll build
-s3cmd sync --delete-removed --acl-public --exclude '.git/*' _site/ s3://$S3_BUCKET/
-echo "Finished syncing to S3 ..."
+
+echo
+echo "#### SYNCING ####"
+echo
+
+s3cmd sync --delete-removed -c <(echo "$INFO") --acl-public --exclude '.git/*' _site/ s3://$S3_BUCKET/
+
+echo
+echo "#### DONE! ####"
+echo
