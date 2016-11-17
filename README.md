@@ -6,12 +6,37 @@ This repository holds the files for MDST's github pages website.
 
 
 ### Prerequisites
-This website uses jekyll, and is hosted on amazon s3. Here are a list of things which must be installed in order for you to test this website locally and push your changes to the live site.
+This website uses [`jekyll`](https://jekyllrb.com/), and is hosted on Amazon S3. Here are a list of things which must be installed in order for you to test this website locally and push your changes to the live site.
 
+* `s3cmd`: Can be installed via `brew` and `apt-get`.
+* `jekyll`: Can be installed using RubyGems, which comes with an installation of `ruby`, which is pre-installed on MacOS. Install with `$ gem install jekyll bundler`
+* `git`: If you haven't used git before, I'm sorry, but you were gonna have to learn it at some point.
 
 ### Writing Posts
 
-The MDST website has the nice feature of supporting blog posts. Here's how you do it.
+The MDST website has the nice feature of supporting blog posts. Here's how you do it. If you don't want to think about any of this that hard, the easiest thing to do will be to look for a post similar to the one you want to write, copy it, and change the file name.
+
+### Quick Start
+
+If you just want to write a post as fast as possible, here's the quickest way to do that.
+
+1. Make sure you download and install the pre-requisite programs listed above.
+1. Clone this repository. If you have already cloned it and haven't updated recently, run `git pull` in the folder to update.
+    1. `$ git clone https://github.com/MichiganDataScienceTeam/MichiganDataScienceTeam.github.io.git`
+1. Copy a post from `_posts/` and change the filename according to the pattern of the other files.
+1. Make your own branch and push it to the repo.
+    1. `$ git checkout -b my-new-post`
+1. Change the variables at the top of the post between the two `---` dashes.
+1. Preview your post.
+    1. `$ jekyll serve`
+    1. Use your browser to navigate to `localhost:4000`
+1. Add your changes, commit your changes locally, and push your changes to GitHub.
+    1. `$ git add _posts/the-post-that-you-made.md`
+    1. `$ git commit`
+    1. `$ git push -u origin my-new-post`
+1. Go to GitHub and create a pull-request. If you have successfully pushed your branch and it contains changes, there should be a button under the name of the repository towards the top left corner of the screen.
+1. Add some details and I'll merge the branch into master if it all looks good.
+1. After the branch is merged into master, you may run `$ ./update-live-site` if you have the password. Otherwise, someone with the password will update. All this said, you can actually run that script at any point, but until I move the script to an AWS Lambda function it will remain in the project repo.
 
 #### Jekyll
 
@@ -41,3 +66,4 @@ Many of these options are pretty self explanatory, but I'll explain a few that a
 * __`author` ::__ This is a cool one. If you add your information to the `/_data/authors.yml` file, you will be able to specify your name in the `name:` variable and see that the post is credited to you.
 * __`share` ::__ This should be set to `false` until further notice. We haven't configured these properly yet. Maybe one day.
 * __`layout` ::__ This should always be `post`.
+
