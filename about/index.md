@@ -144,3 +144,12 @@ A list of members who volunteered to be publicly identified on this page.
 * Competitions Completed: _Springleaf, RateMyProfessor, UMS Visualization, Anything from the Flint Project_
 * _I am an experimental biologist and have an interest in machine learning and visualization._
 
+---
+
+### Sean Ma
+
+* _Phd in Neuroscience_
+* Competitions Completed: _RateMyProfessor, FARS, UMS Visualization, Anything from the Flint Project_
+* _I research in the mental health / healthcare space and have a passion combining machine learning skills with my entrepreneurial mindset._
+* [Linkedin](https://www.linkedin.com/in/seantma)
+

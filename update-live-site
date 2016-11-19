@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 S3_BUCKET=mdst.eecs.umich.edu
+
 # Check for s3cmd
 S3CMD=$(which s3cmd)
 if [ -z "$S3CMD" ]; then
@@ -50,3 +51,4 @@ s3cmd sync --delete-removed -c <(echo "$INFO") --acl-public --exclude '.git/*' _
 echo
 echo "#### DONE! ####"
 echo
+
