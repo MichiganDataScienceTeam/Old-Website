@@ -35,6 +35,8 @@ Professor Eric Schwartz's expertise focuses on predicting customer behavior, und
 
 Jonathan is a first year Ph.D. student in the department of Computer Science and Engineering (CSE). His research interests are in Machine Learning and Computer Vision, including deep learning, structured prediction, and knowledge representation.
 
+* [Personal Page](http://www-personal.umich.edu/~stroud/)
+
 ---
 
 ### Jared Webb, Team Captain B
