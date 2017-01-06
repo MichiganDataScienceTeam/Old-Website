@@ -8,8 +8,7 @@ layout: home
 ---
 
 ### Meeting Times for Fall 2016
-* There are no meetings remaining in this semester. See you after Winter
-  Break!
+* Wecome back from Winter Break! Meetings resume the week of the 8th
 * **Tutorial Series:** Wednesdays, 5:00pm to 6:00pm in SRB 2246
 * **Project Team Meetings:** Thursdays 5:30pm to 6:30 in BBB 3725
 
