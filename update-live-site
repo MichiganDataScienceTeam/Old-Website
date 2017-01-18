@@ -17,7 +17,7 @@ GPG=$(which gpg)
 if [ -z "$GPG" ]; then
     echo "################"
     echo "  Missing prerequisite decryption program."
-    echo "  Please install \"s3cmd\" and rerun this script."
+    echo "  Please install \"gpg\" and rerun this script."
     echo "################"
     exit
 fi
