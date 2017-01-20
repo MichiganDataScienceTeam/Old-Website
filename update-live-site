@@ -9,7 +9,7 @@ if [ -z "$S3CMD" ]; then
     echo "  Missing prerequisite command line interface."
     echo "  Please install \"s3cmd\" and rerun this script."
     echo "################"
-    exit
+    exit 1
 fi
 
 # Check for gpg
@@ -19,7 +19,7 @@ if [ -z "$GPG" ]; then
     echo "  Missing prerequisite decryption program."
     echo "  Please install \"gpg\" and rerun this script."
     echo "################"
-    exit
+    exit 1
 fi
 
 # Decrypt s3cgf
@@ -28,7 +28,7 @@ if [ -z "$INFO" ]; then
     echo "################"
     echo "  Decryption Failed."
     echo "################"
-    exit
+    exit 1
 fi
 
 # Prevent conflicting env vars
@@ -52,3 +52,4 @@ echo
 echo "#### DONE! ####"
 echo
 
+exit 0
